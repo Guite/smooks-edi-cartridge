@@ -5,7 +5,7 @@ image:https://img.shields.io/nexus/s/org.smooks.cartridges.edi/smooks-edi-cartri
 image:https://github.com/smooks/smooks-edi-cartridge/workflows/CI/badge.svg[Build Status]
 
 // tag::smooks-edi-cartridge[]
-The EDI cartridge inherits from the https://github.com/smooks/smooks-javabean-cartridge/blob/master/README.adoc[DFDL cartridge] to provide a schema-driven reader for parsing EDI documents, and a schema-driven visitor for serialising the event stream into EDI. Many of the options that are available from the DFDL cartridge are supported in the EDI cartridge as well (e.g., https://www.smooks.org/documentation/#_parser_options_validation_mode[validation mode]). Moreover, the https://www.smooks.org/documentation/#dfdl_guidance[guidance on DFDL] is also highly relevant to the EDI schemas.
+The EDI cartridge inherits from the https://www.smooks.org/documentation/#dfdl[DFDL cartridge] to provide a schema-driven reader for parsing EDI documents, and a schema-driven visitor for serialising the event stream into EDI. Many of the options that are available from the DFDL cartridge are supported in the EDI cartridge as well (e.g., https://www.smooks.org/documentation/#_parser_options_validation_mode[validation mode]). Moreover, the https://www.smooks.org/documentation/#dfdl_guidance[guidance on DFDL] is also highly relevant to the EDI schemas.
 
 In the following pass-through configuration, Smooks parses an EDI document and then serialises, or unparses in DFDL nomenclature, the generated event stream to produce an EDI document identical to the parsed document.
 
@@ -435,7 +435,7 @@ Once you add an EDIFACT schema pack set to the application's classpath, you conf
 </smooks-resource-list>
 ----
 
-See the https://github.com/smooks/smooks-examples[EDIFACT examples] for further reference.
+See the https://github.com/smooks/smooks-examples/tree/v5[EDIFACT examples] for further reference.
 
 === Maven Coordinates
 
