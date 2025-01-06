@@ -3,6 +3,9 @@
 image:https://img.shields.io/maven-central/v/org.smooks.cartridges.edi/smooks-edi-cartridge[Maven Central]
 image:https://img.shields.io/nexus/s/org.smooks.cartridges.edi/smooks-edi-cartridge?server=https%3A%2F%2Foss.sonatype.org[Sonatype Nexus (Snapshots)]
 image:https://github.com/smooks/smooks-edi-cartridge/workflows/CI/badge.svg[Build Status]
+image:https://img.shields.io/badge/group-user-red?logo=Gmail[email group,link=https://groups.google.com/g/smooks-user]
+image:https://img.shields.io/badge/group-dev-red?logo=Gmail[email group,link=https://groups.google.com/g/smooks-dev]
+image:https://img.shields.io/badge/chat-on%20gitter-46bc99.svg[Gitter chat,link=https://gitter.im/smooks/smooks]
 
 // tag::smooks-edi-cartridge[]
 The EDI cartridge inherits from the https://www.smooks.org/documentation/#dfdl[DFDL cartridge] to provide a schema-driven reader for parsing EDI documents, and a schema-driven visitor for serialising the event stream into EDI. Many of the options that are available from the DFDL cartridge are supported in the EDI cartridge as well (e.g., https://www.smooks.org/documentation/#_parser_options_validation_mode[validation mode]). Moreover, the https://www.smooks.org/documentation/#dfdl_guidance[guidance on DFDL] is also highly relevant to the EDI schemas.
